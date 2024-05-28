@@ -13,7 +13,7 @@ This project demonstrates how to upload and serve files using a Flask web applic
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/flask-uploading-files.git
+    git clone https://github.com/your-username/flask-uploading-files
     cd flask-uploading-files
     ```
 
