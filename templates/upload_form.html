@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>Upload new File</title>
+</head>
+<body>
+    <h1>Upload new File</h1>
+    <form method="post" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    <h1>Uploaded Files</h1>
+    <ul>
+    {% for file in files %}
+        <li><a href="{{ url_for('uploaded_file', filename=file) }}">{{ file }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
