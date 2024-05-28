@@ -48,14 +48,6 @@ This project demonstrates how to upload and serve files using a Flask web applic
 - **POST /upload**: Handles file upload and stores the file on the server.
 - **GET /files/<filename>**: Serves the uploaded file.
 
-### Running Tests
-
-1. Run the tests:
-
-    ```sh
-    python -m unittest discover
-    ```
-
 ## Built With
 
 - Flask - The web framework used
